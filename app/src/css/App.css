@@ -78,106 +78,6 @@
   color: #98A6CB;
 }
 
-select, input {
-  position: relative;
-  border: 1px solid #d3dcf4;
-  border-radius: 6px;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  background-color: #fff;
-  height: 56px;
-  padding-left: 12px;
-  font-size: 14px;
-}
-
-.invoice-info form {
-  width: 77%;
-  margin: 0 auto 50px;
-  display: block;
-}
-
-.invoice-info form .select {
-  position: relative;
-  display: inline-block;
-  margin-bottom: 15px;
-  width: 100%;
-}
-
-.invoice-info form .select select {
-  display: inline-block;
-  width: 100%;
-  cursor: pointer;
-  padding: 14px 12px 0;
-  outline: 0;
-  border: 1px solid #D5DEF4;
-  border-radius: 8px;
-  background: #ffffff;
-  color: #292929;
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-}
-
-.invoice-info form .select select::-ms-expand {
-  display: none;
-}
-
-.invoice-info form .select select:hover,
-.invoice-info form .select select:focus {
-  color: #292929;
-  background: #fffff;
-}
-
-.invoice-info form .select select:disabled {
-  opacity: 0.5;
-  pointer-events: none;
-}
-
-.invoice-info form .select_arrow {
-  position: absolute;
-  top: 22px;
-  right: 15px;
-  width: 0px;
-  height: 0px;
-  border: solid #98A6CB;
-  border-width: 0 2px 2px 0;
-  display: inline-block;
-  padding: 3px;
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-}
-
-.invoice-info form .select select:hover~.invoice-info form .select_arrow,
-.invoice-info form .select select:focus~.invoice-info form .select_arrow {
-  border-color: #292929;
-}
-
-.invoice-info form .select select:disabled~.invoice-info form .select_arrow {
-  border-top-color: #98A6CB;
-}
-
-.invoice-info form .input-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-::placeholder {
-  /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #98A6CB;
-  opacity: 1;
-  /* Firefox */
-}
-
-:-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
-  color: #98A6CB;
-}
-
-::-ms-input-placeholder {
-  /* Microsoft Edge */
-  color: #98A6CB;
-}
-
 .invoice-info button {
   background-color: #3056BA;
   color: #fff;
@@ -333,3 +233,91 @@ footer {
 table.table{width:90%}
 .table-summary-container{width:95%;}
 }
+
+/*
+
+Didn't end up using
+
+select, input {
+  position: relative;
+  border: 1px solid #d3dcf4;
+  border-radius: 6px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #fff;
+  height: 56px;
+  padding-left: 12px;
+  font-size: 14px;
+}
+
+.invoice-info form {
+  width: 77%;
+  margin: 0 auto 50px;
+  display: block;
+}
+
+.invoice-info form .select {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.invoice-info form .select select {
+  display: inline-block;
+  width: 100%;
+  cursor: pointer;
+  padding: 14px 12px 0;
+  outline: 0;
+  border: 1px solid #D5DEF4;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #292929;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.invoice-info form .select select::-ms-expand {
+  display: none;
+}
+
+.invoice-info form .select select:hover,
+.invoice-info form .select select:focus {
+  color: #292929;
+  background: #fffff;
+}
+
+.invoice-info form .select select:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.invoice-info form .select_arrow {
+  position: absolute;
+  top: 22px;
+  right: 15px;
+  width: 0px;
+  height: 0px;
+  border: solid #98A6CB;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.invoice-info form .select select:hover~.invoice-info form .select_arrow,
+.invoice-info form .select select:focus~.invoice-info form .select_arrow {
+  border-color: #292929;
+}
+
+.invoice-info form .select select:disabled~.invoice-info form .select_arrow {
+  border-top-color: #98A6CB;
+}
+
+.invoice-info form .input-container {
+  display: flex;
+  justify-content: space-between;
+}
+*/
