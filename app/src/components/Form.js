@@ -18,17 +18,26 @@ export default class PaymentForm extends Component {
 
   render() {
     return (
-      <form onSubmit={this.handleSubmit}>
-      <label>I would like to pay via…</label>
-        <select onChange={this.handleChange}>
-          <option value="card_payment" selected>Card</option>
-          <option value="bank_payment">Bank Transfer</option>
-        </select>
-        <input type="text" placeholder="Card Number" onChange={this.handleChange} />
-        <input type="text" placeholder="MM / YY" onChange={this.handleChange} />
-        <input type="text" placeholder="CVC" onChange={this.handleChange} />
-        <input type="submit" value="Pay Invoice" />
-      </form>
+      <div className="form-container">
+        <h2><b>$4,581.75 USD</b> due on <b>June 23, 2019</b></h2>
+        <form onSubmit={this.handleSubmit}>
+          <label>I would like to pay via…</label>
+          <div className="select">
+            <select onChange={this.handleChange}>
+              <option value="card_payment" selected>Card</option>
+              <option value="bank_payment">Bank Transfer</option>
+            </select>
+            <div className="select_arrow">
+            </div>
+          </div>
+          <div className="input-container">
+            <input className="card-num" type="text" placeholder="Card Number" onChange={this.handleChange} />
+            <input className="card-date" type="text" placeholder="MM / YY" onChange={this.handleChange} />
+            <input className="card-cvc" type="text" placeholder="CVC" onChange={this.handleChange} />
+          </div>
+          <input type="submit" value="Pay Invoice" />
+        </form>
+      </div>
     );
   }
 }

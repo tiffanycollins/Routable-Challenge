@@ -17,7 +17,7 @@ function App() {
             <p>“Thank you for your business and have a great day.” - Google</p>
           </div>
 
-          <div>
+          <div className="client-contact">
             <p>If you have any questions, contact Google at ar@google.com</p>
           </div>
         </div>

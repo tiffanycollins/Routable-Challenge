@@ -7,7 +7,7 @@ class PaymentDataTable extends Component {
     const headings = [
       'Description',
       'Date',
-      'Quantity',
+      'Qty',
       'Rate',
       'Amount',
     ];
@@ -30,20 +30,22 @@ class PaymentDataTable extends Component {
     ];
 
     return (
-      <div>
+      <div className="table-container">
         <DataTable headings={headings} rows={rows} />
-        <div className="table-summary">
+        <div className="table-summary-container">
           <button>
           View PDF
           </button>
-          <div>
-            <p>Tax:</p> <p>$6.75</p>
-          </div>
-          <div>
-            <p>Discount:</p> <p>-$1,500.00</p>
-          </div>
-          <div>
-            <p>Total Balance Due:</p> <p>$4,581.75</p>
+          <div className="table-summary">
+            <div>
+              <p>Tax:</p> <p>$6.75</p>
+            </div>
+            <div>
+              <p>Discount:</p> <p>-$1,500.00</p>
+            </div>
+            <div>
+              <p><b>Total Balance Due:</b></p> <p><b>$4,581.75</b></p>
+            </div>
           </div>
         </div>
       </div>
