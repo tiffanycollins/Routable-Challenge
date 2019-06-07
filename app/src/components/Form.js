@@ -27,7 +27,7 @@ export default class PaymentForm extends Component {
         <input type="text" placeholder="Card Number" onChange={this.handleChange} />
         <input type="text" placeholder="MM / YY" onChange={this.handleChange} />
         <input type="text" placeholder="CVC" onChange={this.handleChange} />
-        <input type="submit" value="Submit" />
+        <input type="submit" value="Pay Invoice" />
       </form>
     );
   }

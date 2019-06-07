@@ -2,6 +2,7 @@ import React from 'react';
 import './css/App.css';
 import Header from './components/Header';
 import PaymentForm from './components/Form';
+import PaymentDataTable from './components/PaymentDataTable';
 import Footer from './components/Footer';
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
         <div className="content">
           <Header />
           <PaymentForm />
-
+          <PaymentDataTable />
         </div>
         <Footer />
       </div>
