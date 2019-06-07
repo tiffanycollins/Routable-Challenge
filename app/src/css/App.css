@@ -21,6 +21,8 @@
   border-bottom: 2px solid #D3DCF4;
   text-align: right;
   height: 195px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header img {
@@ -313,4 +315,21 @@ footer {
   font-size: 14px;
   margin-top: 20px;
   font-family: helvetica neue;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 1100px) {
+.content{width:75%}
+}
+
+@media (max-width: 600px) {
+.content{width:95%}
+}
+
+@media (max-width: 500px) {
+.content{width:100%;border-radius:0}
+.header{border-radius:0;display: block;height: 255px;text-align: center;padding-top:25px;}
+.content-page{padding:0!important;}
+table.table{width:90%}
+.table-summary-container{width:95%;}
 }
