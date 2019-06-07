@@ -292,7 +292,7 @@ tr {
   border-radius: 8px;
   padding-left: 30px;
   width: 30px;
-  background: url(/static/media/green_relationships.8cb00d30.svg);
+  background: url('../images/green_relationships.svg');
   background-repeat: no-repeat;
   background-position: 10px;
   background-size: 30px;
