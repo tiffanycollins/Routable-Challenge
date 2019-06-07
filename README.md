@@ -1,11 +1,5 @@
 # Routable Challenge
 
-Clone or download the project.
-
-### https://github.com/tiffanycollins/challenge
-
----
-
 In the project directory [routable-challenge/app] , you can run:
 
 ### `npm i`
