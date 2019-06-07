@@ -1,6 +1,7 @@
 import React from 'react';
 import './css/App.css';
 import Header from './components/Header';
+import PaymentForm from './components/Form';
 import Footer from './components/Footer';
 
 function App() {
@@ -9,10 +10,7 @@ function App() {
       <div className="content-page">
         <div className="content">
           <Header />
-          <div className="container-fluid">
-
-
-          </div>
+          <PaymentForm />
 
         </div>
         <Footer />
