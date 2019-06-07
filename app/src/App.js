@@ -13,6 +13,13 @@ function App() {
           <Header />
           <PaymentForm />
           <PaymentDataTable />
+          <div className="client-comment">
+            <p>“Thank you for your business and have a great day.” - Google</p>
+          </div>
+
+          <div>
+            <p>If you have any questions, contact Google at ar@google.com</p>
+          </div>
         </div>
         <Footer />
       </div>
