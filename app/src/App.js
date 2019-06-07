@@ -18,7 +18,7 @@ function App() {
           </div>
 
           <div className="client-contact">
-            <p>If you have any questions, contact Google at ar@google.com</p>
+            <p>If you have any questions, contact Google at <a href="mailto:ar@google.com">ar@google.com</a>.</p>
           </div>
         </div>
         <Footer />

@@ -34,7 +34,7 @@ class PaymentDataTable extends Component {
         <DataTable headings={headings} rows={rows} />
         <div className="table-summary-container">
           <button>
-          View PDF
+            View PDF
           </button>
           <div className="table-summary">
             <div>
