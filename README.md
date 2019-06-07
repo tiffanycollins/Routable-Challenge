@@ -6,7 +6,7 @@ Clone or download the project.
 
 ---
 
-In the project directory, you can run:
+In the project directory [routable-challenge/app] , you can run:
 
 ### `npm i`
 then
