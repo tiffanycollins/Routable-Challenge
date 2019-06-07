@@ -11,9 +11,14 @@ function App() {
       <div className="content-page">
         <div className="content">
           <Header />
-          <PaymentForm />
+          <div className="invoice-info">
+            <h4><b>Google LLC</b> has sent you an invoice.</h4>
+            <h2><b>$4,581.75 USD</b> due on <b>June 23, 2019</b></h2>
+            <button>Pay Invoice</button>
+          </div>
           <PaymentDataTable />
           <div className="client-comment">
+            <div className="comment-img"></div>
             <p>“Thank you for your business and have a great day.” - Google</p>
           </div>
 

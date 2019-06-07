@@ -49,24 +49,24 @@
   font-weight: 300;
 }
 
-.form-container {
+.invoice-info {
   background-color: #F6F8FF;
   border-bottom: 2px solid #D3DCF4;
 }
 
-.form-container h2 {
+.invoice-info h2 {
   margin: 0;
   font-weight: 400;
   text-align: center;
-  padding: 0 0 38px;
+  padding: 0 0 30px;
   color: #A5A5A5;
 }
 
-.form-container h2 b {
+.invoice-info h2 b {
   color: #292929;
 }
 
-.form-container h4{
+.invoice-info h4{
   margin:0;
   text-align: center;
   padding-top:30px;
@@ -88,20 +88,20 @@ select, input {
   font-size: 14px;
 }
 
-.form-container form {
+.invoice-info form {
   width: 77%;
   margin: 0 auto 50px;
   display: block;
 }
 
-.form-container form .select {
+.invoice-info form .select {
   position: relative;
   display: inline-block;
   margin-bottom: 15px;
   width: 100%;
 }
 
-.form-container form .select select {
+.invoice-info form .select select {
   display: inline-block;
   width: 100%;
   cursor: pointer;
@@ -116,22 +116,22 @@ select, input {
   -moz-appearance: none;
 }
 
-.form-container form .select select::-ms-expand {
+.invoice-info form .select select::-ms-expand {
   display: none;
 }
 
-.form-container form .select select:hover,
-.form-container form .select select:focus {
-  color: #000000;
+.invoice-info form .select select:hover,
+.invoice-info form .select select:focus {
+  color: #292929;
   background: #fffff;
 }
 
-.form-container form .select select:disabled {
+.invoice-info form .select select:disabled {
   opacity: 0.5;
   pointer-events: none;
 }
 
-.form-container form .select_arrow {
+.invoice-info form .select_arrow {
   position: absolute;
   top: 22px;
   right: 15px;
@@ -145,16 +145,16 @@ select, input {
   -webkit-transform: rotate(45deg);
 }
 
-.form-container form .select select:hover~.form-container form .select_arrow,
-.form-container form .select select:focus~.form-container form .select_arrow {
-  border-color: #000000;
+.invoice-info form .select select:hover~.invoice-info form .select_arrow,
+.invoice-info form .select select:focus~.invoice-info form .select_arrow {
+  border-color: #292929;
 }
 
-.form-container form .select select:disabled~.form-container form .select_arrow {
+.invoice-info form .select select:disabled~.invoice-info form .select_arrow {
   border-top-color: #98A6CB;
 }
 
-.form-container form .input-container {
+.invoice-info form .input-container {
   display: flex;
   justify-content: space-between;
 }
@@ -176,17 +176,16 @@ select, input {
   color: #98A6CB;
 }
 
-input[type=submit] {
+.invoice-info button {
   background-color: #3056BA;
   color: #fff;
   border: none;
-  width: 100%;
-  margin: 25px auto;
+  width: 50%;
+  margin: 0 auto 38px;
   display: block;
   font-size: 20px;
   font-weight: 600;
   letter-spacing: .25px;
-  margin-bottom: 38px;
   border-radius: 8px;
   font-family: helvetica neue;
   height: 60px;
@@ -278,12 +277,25 @@ tr {
 
 .client-comment {
   text-align: center;
+  display: flex;
   border-bottom: 1px solid #EAEAEA;
   padding: 25px 0;
   color: #A5A5A5;
   font-style: italic;
   font-size: 14px;
   font-family: helvetica neue;
+  justify-content: center;
+}
+
+.comment-img{
+  background-color: #fff;
+  border-radius: 8px;
+  padding-left: 30px;
+  width: 30px;
+  background: url(/static/media/green_relationships.8cb00d30.svg);
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 30px;
 }
 
 .client-contact {

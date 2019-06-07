@@ -19,8 +19,6 @@ export default class PaymentForm extends Component {
   render() {
     return (
       <div className="form-container">
-        <h4><b>Google LLC</b> has sent you an invoice.</h4>
-        <h2><b>$4,581.75 USD</b> due on <b>June 23, 2019</b></h2>
         <form onSubmit={this.handleSubmit}>
           <label>I would like to pay via…</label>
           <div className="select">
